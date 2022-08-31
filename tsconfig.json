@@ -2,6 +2,12 @@
 /* This file holds the current default config for angular cli projects */
 {
   "compilerOptions": {
-    "outDir": "./dist/out-tsc"
+    "outDir": "./dist/out-tsc",
+    "target": "es2020",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ]
   }
 }
