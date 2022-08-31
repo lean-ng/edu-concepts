@@ -1,6 +1,7 @@
-import { ErrorHandler, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
 import { AppComponent } from './app.component';
-import { SimpleErrorHandler } from './services/SimpleErrorHandler';
 
 @NgModule({
   // Components, directives and pipes
@@ -8,8 +9,8 @@ import { SimpleErrorHandler } from './services/SimpleErrorHandler';
   // Bootstrap components
   bootstrap: [AppComponent],
   // Services provided
-  providers: [
-    { provide: ErrorHandler, useClass: SimpleErrorHandler }
-  ]
+  providers: [],
+  // Imported modules (with declarations and providers)
+  imports: [BrowserModule]
 })
 export class AppModule {}
