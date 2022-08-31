@@ -1,2 +1,6 @@
-const msg: string = 'Your starting point. Enjoy the ride.';
-console.log(msg);
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app/app.module';
+
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch((err) => console.error(err));
