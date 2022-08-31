@@ -1,0 +1,7 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+/* This file holds the current default config for angular cli projects */
+{
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc"
+  }
+}

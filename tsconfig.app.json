@@ -1,0 +1,11 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+/* This file ajusts the default config to meet the current project */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/edu-concepts"
+  },
+  "files": [
+    "src/main.ts"
+  ]
+}
