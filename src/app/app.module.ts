@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 
 import { CoreModule } from './core/core.module';
 
-import { appRoutes } from './app.routes';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -15,6 +14,6 @@ import { AppComponent } from './app.component';
   // Services provided
   providers: [],
   // Imported modules (with declarations and providers)
-  imports: [BrowserModule, CoreModule, RouterModule.forRoot(appRoutes)],
+  imports: [BrowserModule, CoreModule, RouterModule.forRoot([])],
 })
 export class AppModule {}
