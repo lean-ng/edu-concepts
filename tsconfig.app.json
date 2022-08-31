@@ -3,7 +3,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist/edu-concepts"
+    "outDir": "./dist/edu-concepts",
+    "lib": [
+      "dom",
+      "es2022"
+    ]
   },
   "files": [
     "src/main.ts"
