@@ -5,6 +5,9 @@
     "edu-concepts": {
       "projectType": "application",
       "root": "",
+      "i18n": {
+        "sourceLocale": "de"
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -14,12 +17,9 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico"
-            ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "assets": ["src/favicon.ico"],
+            "styles": ["src/styles.css"],
+            "localize": true
           },
           "configurations": {
             "production": {},
@@ -45,7 +45,6 @@
             }
           },
           "defaultConfiguration": "development"
-
         }
       }
     }
