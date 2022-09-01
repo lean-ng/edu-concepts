@@ -12,7 +12,9 @@ export class PageTitleService extends TitleStrategy {
     const title = this.buildTitle(routerState);
     if (title !== undefined) {
       this.title.setTitle(
-        [title, $localize`Angular Konzepte`].filter(Boolean).join(' - ')
+        [title, $localize`:@@appTitle:Angular Konzepte`]
+          .filter(Boolean)
+          .join(' - ')
       );
     }
   }
