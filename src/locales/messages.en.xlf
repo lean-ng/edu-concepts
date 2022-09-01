@@ -22,7 +22,7 @@
     <unit id="1102496654977814235">
       <segment state="initial">
         <source> Das Projekt demonstriert den Aufbau einer Angular-Anwendung aus dem Nichts und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </source>
-        <target> Das Projekt demonstriert den Aufbau einer Angular-Anwendung und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </target>
+        <target> This project aims to create an Angular application from scratch and introduces foundational concepts and building blocks.</target>
       </segment>
       <notes>
         <note category="location">src/app/core/pages/home/home.component.html:5,8</note>
@@ -31,7 +31,7 @@
     <unit id="5563123648762190421">
       <segment state="initial">
         <source>Start</source>
-        <target>Start</target>
+        <target>Home</target>
       </segment>
       <notes>
         <note category="location">src/app/core/components/app-header/app-header.component.html:10</note>
@@ -41,7 +41,7 @@
     <unit id="7103992093116198248">
       <segment state="initial">
         <source>Zeitstrahl</source>
-        <target>Zeitstrahl</target>
+        <target>Timeline</target>
       </segment>
       <notes>
         <note category="location">src/app/core/components/app-header/app-header.component.html:17</note>
@@ -55,7 +55,7 @@
       </notes>
       <segment state="initial">
         <source> Zeitstrahl </source>
-        <target> Zeitstrahl </target>
+        <target> Timeline </target>
       </segment>
     </unit>
   </file>
