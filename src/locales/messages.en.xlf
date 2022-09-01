@@ -6,17 +6,47 @@
         <source>Angular Konzepte</source>
         <target>Angular Concepts</target>
       </segment>
+      <notes>
+        <note category="location">src/app/app.component.html:1</note>
+        <note category="location">src/app/core/services/page-title.service.ts:15</note>
+      </notes>
     </unit>
     <unit id="935211991633677167">
       <segment>
         <source> Motivation </source>
       </segment>
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:2,4</note>
+      </notes>
     </unit>
     <unit id="1102496654977814235">
       <segment state="initial">
         <source> Das Projekt demonstriert den Aufbau einer Angular-Anwendung aus dem Nichts und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </source>
         <target> Das Projekt demonstriert den Aufbau einer Angular-Anwendung und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </target>
       </segment>
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:5,8</note>
+      </notes>
+    </unit>
+    <unit id="5563123648762190421">
+      <segment state="initial">
+        <source>Start</source>
+        <target>Start</target>
+      </segment>
+      <notes>
+        <note category="location">src/app/core/components/app-header/app-header.component.html:10</note>
+        <note category="meaning">nav item</note>
+      </notes>
+    </unit>
+    <unit id="7103992093116198248">
+      <segment state="initial">
+        <source>Zeitstrahl</source>
+        <target>Zeitstrahl</target>
+      </segment>
+      <notes>
+        <note category="location">src/app/core/components/app-header/app-header.component.html:17</note>
+        <note category="meaning">nav item</note>
+      </notes>
     </unit>
   </file>
 </xliff>

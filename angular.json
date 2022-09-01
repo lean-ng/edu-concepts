@@ -58,9 +58,8 @@
             "browserTarget": "edu-concepts:build",
             "format": "xlf2",
             "outputPath": "src/locales",
-            "targetFiles": [
-              "messages.en.xlf"
-            ],
+            "includeContext": true,
+            "targetFiles": ["messages.en.xlf"],
             "sourceFile": "messages.default.de.xlf"
           }
         }
