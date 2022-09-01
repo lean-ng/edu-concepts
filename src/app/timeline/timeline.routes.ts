@@ -2,5 +2,5 @@ import { Route } from '@angular/router';
 import { HomePage } from './pages/home/home.component';
 
 export const timelineRoutes: Route[] = [
-  { path: '', component: HomePage, title: 'Zeitstrahl - Angular Konzepte' },
+  { path: '', component: HomePage, title: 'Zeitstrahl' },
 ];
