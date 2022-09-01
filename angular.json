@@ -6,7 +6,12 @@
       "projectType": "application",
       "root": "",
       "i18n": {
-        "sourceLocale": "de"
+        "sourceLocale": "de",
+        "locales": {
+          "en": {
+            "translation": "src/locales/messages.en.xlf"
+          }
+        }
       },
       "architect": {
         "build": {
@@ -24,6 +29,7 @@
           "configurations": {
             "production": {},
             "development": {
+              "localize": ["en"],
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -45,6 +51,15 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "edu-concepts:build",
+            "format": "xlf2",
+            "outputPath": "src/locales",
+            "outFile": "messages.default.de.xlf"
+          }
         }
       }
     }

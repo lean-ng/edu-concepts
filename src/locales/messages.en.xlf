@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="5068216971964261083">
+      <notes>
+        <note category="location">src/app/app.component.html:1</note>
+      </notes>
+      <segment>
+        <source>Angular Konzepte</source>
+      </segment>
+    </unit>
+    <unit id="935211991633677167">
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:2,4</note>
+      </notes>
+      <segment>
+        <source> Motivation </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
