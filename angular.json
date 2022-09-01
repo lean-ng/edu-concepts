@@ -22,14 +22,20 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico"],
-            "styles": ["src/styles.css"],
+            "assets": [
+              "src/favicon.ico"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
             "localize": true
           },
           "configurations": {
             "production": {},
             "development": {
-              "localize": ["en"],
+              "localize": [
+                "en"
+              ],
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -59,8 +65,20 @@
             "format": "xlf2",
             "outputPath": "src/locales",
             "includeContext": true,
-            "targetFiles": ["messages.en.xlf"],
+            "targetFiles": [
+              "messages.en.xlf"
+            ],
             "sourceFile": "messages.default.de.xlf"
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "edu-concepts:build:production",
+            "firebaseProject": "lean-angular",
+            "firebaseHostingSite": "lean-angular"
           }
         }
       }

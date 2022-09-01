@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lean-angular": {
+      "hosting": {
+        "edu-concepts": [
+          "lean-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lean-angular"
+  }
+}

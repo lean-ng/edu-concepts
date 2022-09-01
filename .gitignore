@@ -4,3 +4,8 @@
 # Build
 /dist/
 /.angular/
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
