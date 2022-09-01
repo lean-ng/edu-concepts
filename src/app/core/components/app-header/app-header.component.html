@@ -1,3 +1,18 @@
-<header class="bg-white h-16 flex items-center shadow-md px-8">
-  <h1 class="text-2xl font-semibold">{{ title }}</h1>
+<header class="bg-white h-16 flex items-center shadow-md px-8 gap-x-8">
+  <h1 class="flex-grow text-2xl font-semibold">{{ title }}</h1>
+  <nav class="h-16 flex items-center gap-x-4 text-fuchsia-500">
+    <a
+      class="font-medium h-16 px-2 flex items-center hover:text-fuchsia-700 border-b-2 border-transparent hover:border-fuchsia-700"
+      routerLink="/"
+      routerLinkActive="text-fuchsia-900"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Start</a
+    >
+    <a
+      class="font-medium h-16 px-2 flex items-center hover:text-fuchsia-700 border-b-2 border-transparent hover:border-fuchsia-700"
+      routerLink="/timeline"
+      routerLinkActive="text-fuchsia-900"
+      >Zeitstrahl</a
+    >
+  </nav>
 </header>
