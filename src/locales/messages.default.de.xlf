@@ -17,5 +17,13 @@
         <source> Motivation </source>
       </segment>
     </unit>
+    <unit id="1633372443370278374">
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:5,8</note>
+      </notes>
+      <segment>
+        <source> Das Projekt demonstriert den Aufbau einer Angular-Anwendung und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </source>
+      </segment>
+    </unit>
   </file>
 </xliff>
