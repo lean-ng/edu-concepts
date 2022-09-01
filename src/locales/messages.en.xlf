@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="de">
   <file id="ngi18n" original="ng.template">
-    <unit id="5068216971964261083">
+    <unit id="appTitle">
       <segment state="initial">
         <source>Angular Konzepte</source>
         <target>Angular Konzepte</target>
