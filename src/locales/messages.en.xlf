@@ -48,5 +48,15 @@
         <note category="meaning">nav item</note>
       </notes>
     </unit>
+    <unit id="3655410726473429858">
+      <notes>
+        <note category="location">src/app/timeline/pages/home/home.component.html:7,9</note>
+        <note category="meaning">timeline module title</note>
+      </notes>
+      <segment state="initial">
+        <source> Zeitstrahl </source>
+        <target> Zeitstrahl </target>
+      </segment>
+    </unit>
   </file>
 </xliff>

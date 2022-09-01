@@ -44,5 +44,14 @@
         <source>Zeitstrahl</source>
       </segment>
     </unit>
+    <unit id="3655410726473429858">
+      <notes>
+        <note category="location">src/app/timeline/pages/home/home.component.html:7,9</note>
+        <note category="meaning">timeline module title</note>
+      </notes>
+      <segment>
+        <source> Zeitstrahl </source>
+      </segment>
+    </unit>
   </file>
 </xliff>
