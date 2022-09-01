@@ -2,27 +2,18 @@
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="de">
   <file id="ngi18n" original="ng.template">
     <unit id="5068216971964261083">
-      <notes>
-        <note category="location">src/app/app.component.html:1</note>
-      </notes>
       <segment>
         <source>Angular Konzepte</source>
       </segment>
     </unit>
     <unit id="935211991633677167">
-      <notes>
-        <note category="location">src/app/core/pages/home/home.component.html:2,4</note>
-      </notes>
       <segment>
         <source> Motivation </source>
       </segment>
     </unit>
-    <unit id="1633372443370278374">
-      <notes>
-        <note category="location">src/app/core/pages/home/home.component.html:5,8</note>
-      </notes>
+    <unit id="1102496654977814235">
       <segment>
-        <source> Das Projekt demonstriert den Aufbau einer Angular-Anwendung und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </source>
+        <source> Das Projekt demonstriert den Aufbau einer Angular-Anwendung aus dem Nichts und führt die grundlegenden Konzepte und Grundbausteine einer solchen ein. </source>
       </segment>
     </unit>
   </file>
