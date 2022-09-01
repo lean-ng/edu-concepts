@@ -2,7 +2,7 @@
   "hosting": {
     "target": "edu-concepts",
     "public": "dist/edu-concepts",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": ["**/.*"],
     "i18n": {
       "root": "/"
     },
@@ -28,8 +28,12 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/de{,/**}",
+        "destination": "/de/index.html"
+      },
+      {
+        "source": "/en{,/**}",
+        "destination": "/de/index.html"
       }
     ]
   }
