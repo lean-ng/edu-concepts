@@ -2,9 +2,10 @@
   "hosting": {
     "target": "edu-concepts",
     "public": "dist/edu-concepts",
-    "ignore": [
-      "**/.*"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "i18n": {
+      "root": "/"
+    },
     "headers": [
       {
         "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
