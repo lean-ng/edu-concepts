@@ -1,3 +1,6 @@
+// --------------------------------------------------------------------
+// -- Zone.js
+
 // Google's now withdrawn zone proposal:
 // https://github.com/domenic/zones
 
@@ -9,3 +12,9 @@ import 'zone.js';
 //
 // Or just Google for it:
 // https://www.google.com/search?q=zoneless+angular
+
+// --------------------------------------------------------------------
+// -- Localization/i18n
+
+// Provide global $localize
+import '@angular/localize/init';
