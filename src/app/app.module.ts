@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { CoreModule } from './core/core.module';
 
 import { AppComponent } from './app.component';
+import { appRoutes } from './app.routes';
 
 @NgModule({
   // Components, directives and pipes
@@ -14,6 +15,6 @@ import { AppComponent } from './app.component';
   // Services provided
   providers: [],
   // Imported modules (with declarations and providers)
-  imports: [BrowserModule, CoreModule, RouterModule.forRoot([])],
+  imports: [BrowserModule, CoreModule, RouterModule.forRoot(appRoutes)],
 })
 export class AppModule {}
