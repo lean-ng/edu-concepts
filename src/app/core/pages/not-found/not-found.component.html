@@ -9,4 +9,15 @@
     This shouldn't happen: either you entered an invalid URL or you clicked on a
     link with a not existing target. Both is probably our fault, sorry.
   </p>
+  <p i18n class="mt-4 px-4">
+    We redirect you in five seconds to the home page.
+  </p>
+  <div class="flex mt-4 w-36 mx-auto">
+    <span
+      *ngFor="let nr of countdownDots; let ix = index"
+      class="inline-block w-3 h-3 mx-2 rounded-full transition-all"
+      [class]="ix < countdown ? 'bg-red-500' : 'bg-white'"
+    >
+    </span>
+  </div>
 </div>
