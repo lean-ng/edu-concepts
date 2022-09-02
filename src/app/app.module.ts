@@ -9,9 +9,12 @@ import { PageTitleService } from './core/services/page-title.service';
 
 import { appRoutes } from './app.routes';
 
+import { HomePage } from './core/pages/home/home.component';
+import { NotFoundPage } from './core/pages/not-found/not-found.component';
+
 @NgModule({
   // Components, directives and pipes
-  declarations: [AppComponent, AppHeaderComponent],
+  declarations: [AppComponent, AppHeaderComponent, HomePage, NotFoundPage],
   // Bootstrap components
   bootstrap: [AppComponent],
   // Services provided
