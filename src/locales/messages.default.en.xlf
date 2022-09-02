@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="appTitle">
+      <notes>
+        <note category="location">src/app/app.component.html:1</note>
+        <note category="location">src/app/core/services/page-title.service.ts:15</note>
+      </notes>
+      <segment>
+        <source>Angular Concepts</source>
+      </segment>
+    </unit>
+    <unit id="880109596948257913">
+      <notes>
+        <note category="location">src/app/core/components/app-header/app-header.component.html:10</note>
+        <note category="meaning">nav item</note>
+      </notes>
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="8866341553138731066">
+      <notes>
+        <note category="location">src/app/core/components/app-header/app-header.component.html:17</note>
+        <note category="meaning">nav item</note>
+      </notes>
+      <segment>
+        <source>Timeline</source>
+      </segment>
+    </unit>
+    <unit id="935211991633677167">
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:2,4</note>
+      </notes>
+      <segment>
+        <source> Motivation </source>
+      </segment>
+    </unit>
+    <unit id="8572830488641328102">
+      <notes>
+        <note category="location">src/app/core/pages/home/home.component.html:5,8</note>
+      </notes>
+      <segment>
+        <source> This project aims to create an Angular application from scratch and introduces foundational concepts and building blocks. </source>
+      </segment>
+    </unit>
+    <unit id="8272948241668078268">
+      <notes>
+        <note category="location">src/app/timeline/pages/home/home.component.html:7,9</note>
+        <note category="meaning">timeline module title</note>
+      </notes>
+      <segment>
+        <source> Timeline </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
