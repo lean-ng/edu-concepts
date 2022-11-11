@@ -33,7 +33,7 @@
       },
       {
         "source": "/en{,/**}",
-        "destination": "/de/index.html"
+        "destination": "/en/index.html"
       }
     ]
   }
