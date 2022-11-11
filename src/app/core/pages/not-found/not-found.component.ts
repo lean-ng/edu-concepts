@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
   templateUrl: './not-found.component.html',
 })
 export class NotFoundPage implements OnInit, OnDestroy {
-  countdown = 5;
+  countdown = 10;
   countdownDots = Array(this.countdown).map((_, ix) => ix + 1);
 
   constructor(private router: Router) {}

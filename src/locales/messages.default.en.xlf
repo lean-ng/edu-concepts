@@ -65,7 +65,7 @@
     <unit id="notFoundTitle">
       <notes>
         <note category="location">src/app/app.routes.ts:17</note>
-        <note category="location">src/app/core/pages/not-found/not-found.component.html:5</note>
+        <note category="location">src/app/core/pages/not-found/not-found.component.html:3</note>
       </notes>
       <segment>
         <source>Oops</source>
@@ -73,18 +73,18 @@
     </unit>
     <unit id="6583086140276384436">
       <notes>
-        <note category="location">src/app/core/pages/not-found/not-found.component.html:8,11</note>
+        <note category="location">src/app/core/pages/not-found/not-found.component.html:5,8</note>
       </notes>
       <segment>
         <source> This shouldn&apos;t happen: either you entered an invalid URL or you clicked on a link with a not existing target. Both is probably our fault, sorry. </source>
       </segment>
     </unit>
-    <unit id="3522683127178751559">
+    <unit id="769219698340255999">
       <notes>
-        <note category="location">src/app/core/pages/not-found/not-found.component.html:12,14</note>
+        <note category="location">src/app/core/pages/not-found/not-found.component.html:9,11</note>
       </notes>
       <segment>
-        <source> We redirect you in five seconds to the home page. </source>
+        <source> We redirect you in ten seconds to the home page. </source>
       </segment>
     </unit>
   </file>
